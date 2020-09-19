@@ -166,6 +166,9 @@ header {
   letter-spacing: 0;
   font-size: 18px;
 }
+.desc a {
+  text-decoration: none;
+}
 .desc-notes {
   margin-left: 40px;
 }
