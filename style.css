@@ -123,6 +123,7 @@ header {
   border-radius: 7px;
   box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.23);
   margin-bottom: 30px;
+  width: 82%;
 }
 .company-image {
   flex: 0 0 25%;
@@ -144,6 +145,7 @@ header {
   font-family: "Lato";
   background-color: #f8f8f8;
   padding: 24px;
+  width: 100%;
 }
 .company-desc h3 {
   color: #3377cc;
