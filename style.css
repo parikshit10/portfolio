@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   max-width: 100%;
   background-image: url("resources/Particles-0.1s-1440px.svg");
+  font-size: 20px;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
   text-align: center;
 }
 .hero-image img {
-  width: 20%;
+  width: 30%;
   filter: grayscale(80%);
   overflow: hidden;
   border-radius: 5%;
@@ -44,7 +45,7 @@ header {
 
 .hero-social li a {
   margin-right: 10px;
-  font-size: 35px;
+  font-size: 170%;
   text-decoration: none;
   color: #212b38;
 }
@@ -67,7 +68,7 @@ header {
   margin-top: 10px;
   letter-spacing: 3px;
   color: #212b38;
-  font-size: 25px;
+  font-size: 125%;
 }
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -102,7 +103,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: 140%;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
   padding: 10px;
@@ -132,7 +133,7 @@ header {
   justify-content: center;
 }
 .company-image img {
-  width: 32%;
+  width: 35%;
 }
 
 .company-image img:hover {
@@ -164,7 +165,7 @@ header {
   color: #37465b;
   margin-top: 10px;
   letter-spacing: 0;
-  font-size: 18px;
+  font-size: 70%;
 }
 .desc a {
   text-decoration: none;
@@ -174,4 +175,59 @@ header {
 }
 .desc-notes li {
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .life-event {
+    flex-direction: column;
+  }
+  .company-image {
+    flex: 0 0 50%;
+    margin: 15% 0;
+  }
+  .company-image img {
+    width: 30%;
+  }
+  .hero-image img {
+    width: 70%;
+  }
+  .desc-video {
+    width: 100%;
+    margin-top: 30px;
+    outline: none;
+  }
+  body {
+    font-size: 14px;
+  }
+  .hero-social li a {
+    font-size: 200%;
+  }
+  .section-skills h2 {
+    margin-bottom: 8%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .life-event {
+  }
+  .company-image {
+    flex: 0 0 45%;
+  }
+  .company-image img {
+    width: 40%;
+  }
+  .hero-image img {
+    width: 70%;
+  }
+  .desc-video {
+    width: 100%;
+    margin-top: 30px;
+    outline: none;
+  }
+  body {
+    font-size: 14px;
+  }
+  .hero-social li a {
+    font-size: 200%;
+  }
 }
