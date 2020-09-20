@@ -4,7 +4,7 @@ $(document).ready(function () {
       $(".js-wp-1").addClass("animate__animated animate__fadeInUpBig")
     },
     {
-      offset: "500px",
+      offset: "800px",
     }
   )
 
@@ -13,7 +13,7 @@ $(document).ready(function () {
       $(".js-wp-2").addClass("animate__animated animate__fadeInUpBig")
     },
     {
-      offset: "500px",
+      offset: "800px",
     }
   )
   $(".js-wp-3").waypoint(
@@ -21,7 +21,7 @@ $(document).ready(function () {
       $(".js-wp-3").addClass("animate__animated animate__fadeInUpBig")
     },
     {
-      offset: "500px",
+      offset: "800px",
     }
   )
   $(".js-wp-4").waypoint(
@@ -29,7 +29,7 @@ $(document).ready(function () {
       $(".js-wp-4").addClass("animate__animated animate__fadeInUpBig")
     },
     {
-      offset: "500px",
+      offset: "800px",
     }
   )
   $(".js-wp-5").waypoint(
@@ -37,7 +37,7 @@ $(document).ready(function () {
       $(".js-wp-5").addClass("animate__animated animate__fadeInUpBig")
     },
     {
-      offset: "500px",
+      offset: "800px",
     }
   )
   $(".js-wp-6").waypoint(
@@ -45,7 +45,7 @@ $(document).ready(function () {
       $(".js-wp-6").addClass("animate__animated animate__fadeInUpBig")
     },
     {
-      offset: "500px",
+      offset: "800px",
     }
   )
 })
