@@ -38,6 +38,7 @@ header {
 .hero-image img:hover {
   filter: none;
   transform: translateY(2px);
+  box-shadow: none;
 }
 .hero-social {
   list-style-type: none;
@@ -105,15 +106,20 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 140%;
+  font-size: 110%;
   font-family: "Bebas Neue", cursive;
-  letter-spacing: 3px;
+
   padding: 10px;
+
   /* margin-top: 50px; */
 }
 .section-skills h2 {
   margin-bottom: 2%;
+  font-size: 180%;
   color: #212b38;
+  margin-top: 10%;
+  letter-spacing: 5px;
+  word-spacing: 4px;
 }
 .journey-container {
 }
@@ -126,6 +132,11 @@ header {
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.23);
   margin-bottom: 30px;
   width: 82%;
+  transition: all 0.1s;
+}
+
+.life-event:hover {
+  box-shadow: none;
 }
 .company-image {
   flex: 0 0 25%;
@@ -228,6 +239,60 @@ header {
   animation-duration: 0.5s;
 }
 
+.technical-skills {
+  margin: 0px 9%;
+  display: flex;
+  flex-direction: column;
+}
+.skills-box {
+  display: flex;
+  background-color: #f8f8f8;
+  align-content: space-around;
+  padding: 2% 0;
+  justify-content: space-around;
+  font-family: "Lato";
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.23);
+  border-radius: 7px;
+}
+.skills-box h3 {
+  color: #3377cc;
+}
+
+.skill-top-text:after {
+  display: block;
+  height: 2px;
+  background-color: #37465bad;
+  content: " ";
+  width: 36px;
+  margin-top: 10px;
+}
+.skill ul {
+  list-style: none;
+}
+.skill li {
+  margin-top: 10px;
+  color: #37465b;
+  font-size: 90%;
+}
+.skill li:first-child {
+  margin-top: 20px;
+}
+.skill ul span {
+  margin-right: 10px;
+  margin-left: 20px;
+  color: #37465bad;
+}
+
+.technical-skills h2 {
+  margin-bottom: 2%;
+  font-size: 180%;
+  color: #212b38;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  align-self: center;
+}
+
 @media only screen and (max-width: 700px) {
   .life-event {
     flex-direction: column;
@@ -257,7 +322,16 @@ header {
     margin-bottom: 8%;
   }
   .hero-container {
-    transform: translateY(-80px);
+    /* transform: translateY(-80px); */
+  }
+  .skills-box {
+    flex-direction: column;
+  }
+  .skill {
+    margin: 10%;
+  }
+  .section-skills {
+    margin-top: 20%;
   }
 }
 
@@ -281,6 +355,7 @@ header {
   body {
     font-size: 14px;
   }
+
   .hero-social li a {
     font-size: 200%;
   }
