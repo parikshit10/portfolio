@@ -20,6 +20,8 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 2%;
+  height: 100vh;
+  justify-content: center;
 }
 .hero-image {
   text-align: center;
